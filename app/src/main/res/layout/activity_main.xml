@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.copychallenge.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#233446">
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="50dp"
+            android:src="@drawable/mess"
+            android:background="@drawable/rnd"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="6"
+            android:layout_height="wrap_content"
+            android:text="Home"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textSize="28dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="8dp" />
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#233446">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="30dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="8dp"
+                android:src="@drawable/home" />
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="30dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="8dp"
+                android:src="@drawable/search" />
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="30dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="8dp"
+                android:src="@drawable/notigication" />
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="30dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="8dp"
+                android:src="@drawable/message" />
+
+        </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#1b2936">
+
+        <ImageButton
+            android:id="@+id/logo"
+            android:layout_width="90dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="12dp"
+            android:src="@drawable/real"
+            android:background="@drawable/rnd1"/>
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Real Madrid C.F."
+            android:layout_toRightOf="@id/logo"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"/>
+
+        <ImageView
+            android:id="@+id/veri"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/verify"
+            android:layout_toRightOf="@id/name"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/logo"
+            android:layout_marginTop="50dp"
+            android:textColor="#FFFFFF"
+            android:text="@string/intro1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" @realmadriden"
+            android:layout_toRightOf="@id/veri"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="16dp" />
+
+        <ImageView
+            android:id="@+id/train"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/twi"
+            android:layout_marginBottom="80dp"
+            android:layout_marginLeft="90dp"
+            android:layout_marginRight="12dp"
+            />
+
+
+
+
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="25dp"
+            android:layout_alignBottom="@+id/train"
+            android:layout_alignLeft="@+id/train"
+            android:layout_alignStart="@+id/train"
+            android:layout_marginBottom="120dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:src="@drawable/comment" />
+
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="25dp"
+            android:layout_alignBottom="@id/train"
+            android:layout_alignLeft="@id/train"
+            android:layout_alignStart="@id/train"
+            android:layout_marginLeft="70dp"
+            android:layout_marginBottom="120dp"
+            android:src="@drawable/retweert"/>
+
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="25dp"
+            android:layout_alignBottom="@id/train"
+            android:layout_alignLeft="@id/train"
+            android:layout_alignStart="@id/train"
+            android:layout_marginLeft="130dp"
+            android:layout_marginBottom="120dp"
+            android:src="@drawable/like"
+            />
+
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="25dp"
+            android:layout_alignBottom="@id/train"
+            android:layout_alignLeft="@id/train"
+            android:layout_alignStart="@id/train"
+            android:layout_marginLeft="190dp"
+            android:layout_marginBottom="120dp"
+            android:src="@drawable/share"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginTop="390dp"
+            android:background="#000000" />
+
+        <ImageButton
+            android:id="@+id/logo1"
+            android:layout_width="90dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="400dp"
+            android:src="@drawable/real"
+            android:background="@drawable/rnd1"/>
+
+        <TextView
+            android:id="@+id/name1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="406dp"
+            android:text="Real Madrid C.F."
+            android:layout_toRightOf="@id/logo"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"/>
+
+        <ImageView
+            android:id="@+id/veri1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/verify"
+            android:layout_toRightOf="@id/name"
+            android:layout_marginTop="406dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" @realmadriden"
+            android:layout_toRightOf="@id/veri1"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="406dp" />
+
+        <TextView
+            android:id="@+id/next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/logo1"
+            android:layout_marginTop="440dp"
+            android:textColor="#FFFFFF"
+            android:text="@string/intro2"/>
+
+    </RelativeLayout>
+
+</LinearLayout>
